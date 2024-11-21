@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Mechanical Engineer | Formula SAE Team | Aspiring Innovator</p>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi! I'm Ryan, a Mechanical Engineering student passionate about design, innovation, and racing.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Formula SAE Dyno Design:</strong> Designed and built an eddy current dynamometer.</li>
+                <li><strong>Process Engineering Internship:</strong> Contributed to a $15M annual revenue increase at Marmon A&D.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Contact me: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </footer>
+</body>
+</html>
