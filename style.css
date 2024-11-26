@@ -21,8 +21,7 @@ header {
 }
 
 .profile-pic {
-    width: 150px; /* Reduces the image size */
+    width: 300px; /* Reduces the image size */
     height: auto; /* Keeps the aspect ratio */
-    border-radius: 50%; /* Optional: Makes it circular */
     margin-left: 20px; /* Adds space between text and image */
 }
