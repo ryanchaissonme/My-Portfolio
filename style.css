@@ -1,44 +1,28 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
+/* Existing styles remain the same */
 
 header {
     background-color: #007acc;
     color: white;
     padding: 1em;
-    text-align: center;
+    display: flex; /* Enables side-by-side layout */
+    align-items: center; /* Vertically aligns items */
+    justify-content: space-between; /* Space between title and image */
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Ensures proper alignment */
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 10px;
+.text-content {
+    max-width: 60%; /* Adjust width for the text area */
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-main {
-    padding: 2em;
-}
-
-section {
-    margin-bottom: 2em;
-}
-
-footer {
-    text-align: center;
-    padding: 1em;
-    background-color: #333;
-    color: white;
+.profile-pic {
+    width: 150px; /* Reduces the image size */
+    height: auto; /* Keeps the aspect ratio */
+    border-radius: 50%; /* Optional: Makes it circular */
+    margin-left: 20px; /* Adds space between text and image */
 }
